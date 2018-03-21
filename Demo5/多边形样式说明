@@ -1,0 +1,4 @@
+1.<polygon> 标签用来双床间含有不少于三个便的图形
+2.points属性定义多边形每个角的x和y坐标
+3.svg图形填充规则通过fill-rule属性来指定
+       有效值:nonzero|evenodd|inhert

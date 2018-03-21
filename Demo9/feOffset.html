@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+    <svg>
+        <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+                <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20"/>
+                <feBlend in="SourceGraphic" in2="offOut" mode="normal"/>
+            </filter>
+        </defs>
+        <rect height="90" width="90" stroke="green" stroke-width="3" fill="yellow" filter="url(#f1)"/>
+    </svg>
+</body>
+
+<!--
+    偏移一个矩形<feOffset> ,然后混合便宜图形顶部feBlend
+
+-->
+</html>

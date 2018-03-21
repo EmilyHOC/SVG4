@@ -1,0 +1,11 @@
+1.所有互联网的SVG滤镜定义在<defs>元素中
+2.<filter>标签用来定义SVG滤镜,<filter>标签使用必须使用必须的id属性来定义想这个图形用用哪个滤镜
+
+
+<!--
+1.<filter>元素id属性定义一个滤镜的唯一名称
+2.<feGaussianBlur>元素定义模糊效果
+3.in="SourceGraphic" 这个部分定义了由整个图像创建效果
+4.stdDeviation属性定义模糊量
+5.<rect> 元素的滤镜属性用来把元素连接到f1滤镜
+-->

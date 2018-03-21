@@ -1,0 +1,8 @@
+1.rect元素的width 和height用来定义矩形的高度和宽度
+2.style属性用来定义css样式
+3.css的fill属性用来定义矩形的填充颜色
+4.css的stroke-width属性用来定义矩形边框的宽度
+5.css的stroke属性定义矩形边框的颜色
+6.css的fill-opactity属性定义填充颜色的透明度(范围0-1)
+7.css的stroke-opactity属性定义笔触颜色的透明度(范围0-1)
+8.rx,ry可使矩形产生圆角
